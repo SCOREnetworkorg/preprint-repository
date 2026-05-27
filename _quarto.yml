@@ -12,7 +12,7 @@ metadata-files:
   - sidebar-sports.yml
 
 website:
-  title: "SCORE Module Repository"
+  title: "SCORE Preprint Module Repository"
   google-analytics: "G-D8W3NNYGGP"
   cookie-consent:
     type: implied
