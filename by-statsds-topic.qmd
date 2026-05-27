@@ -1,0 +1,15 @@
+---
+title: "📊 Modules by Statistics and Data Science Topic"
+listing:
+  categories: true
+  sort: "date desc"
+  image-placeholder: "_img/default_thumbnail.png"
+  contents:
+    - "*/*/index.qmd"
+  fields: [image, title, author, date, categories, description, software]
+  filter-ui: [software]
+---
+
+Some modules include materials designed for specific software. Use the filter box to search for modules that include files for software, such as `R`, `Python`, `ISLE`, and `Statkey`.
+
+(_Note that many of modules are also software agnostic, or include materials that support multiple programs._)

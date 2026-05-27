@@ -1,0 +1,66 @@
+---
+title: "Berkson’s Bias: Why Offensive Rating and Height are Negatively Correlated in the NBA"
+author:
+  - name: AUTHOR NAME
+    affiliations:
+      - name: AFFILIATION
+date: "May 11, 2026"
+format: html
+toc: true
+toc-location: left
+description: Berkson’s Bias using NBA offensive rating and height
+categories:
+  - Bias
+  - Correlation
+  - Linear Regression
+software:
+  - R
+editor_options:
+  chunk_output_type: console
+callout-icon: false
+---
+
+::: {.callout-note collapse="false" title="Facilitation notes" appearance="minimal"}
+This module was originally developed as a `learnr` tutorial. The SCORE preprint server does not run the interactive tutorial directly, so users should download the materials below.
+
+Students should be provided with the following data files:
+
+- [CollegeBasketballPlayers2009-2021.csv](CollegeBasketballPlayers2009-2021.csv)
+- [DraftedPlayers2009-2021.xlsx](DraftedPlayers2009-2021.xlsx)
+- [cbb_join.csv](cbb_join.csv)
+- [cbb_join_Data_Dictionary.csv](cbb_join_Data_Dictionary.csv)
+
+Additional module files are available below:
+
+- [Student-facing tutorial R Markdown file](Berksons_Bias.Rmd)
+- [Images folder](images/)
+:::
+
+# Background
+
+This lesson will focus on the correlation between offensive rating and height.
+
+You might expect there to be a positive correlation between offensive rating and height, as generally taller basketball players should be better, right? And indeed there *is* a modest positive correlation between these variables in college basketball players. But when we get to the more elite NBA players, this disappears - taller NBA players were no better on offense in college than their shorter counterparts. In fact, they may even have been worse! How could that be?! This module will give one explanation for this counterintuitive finding.
+
+We will be begin by exploring some data on college basketball and the NBA draft by conducting some descriptive analyses and visualizations. Then we will show how a concept called Berkson's bias explains the correlation we see in NBA players.
+
+In this process, we will also use linear regression to estimate the association between height and adjusted offensive rating, two continuous variables.
+
+# Module Files
+
+The full module materials are linked below.
+
+- [Student-facing tutorial R Markdown file](Berksons_Bias.Rmd)
+- [College basketball players data](CollegeBasketballPlayers2009-2021.csv)
+- [Drafted players data](DraftedPlayers2009-2021.xlsx)
+- [Joined college basketball data](cbb_join.csv)
+- [Data dictionary](cbb_join_Data_Dictionary.csv)
+- [Images folder](images/)
+
+# Module
+
+This shell page provides access to the module materials. Download the student-facing R Markdown file and supporting data files above to run the original `learnr` tutorial locally.
+
+# Summary
+
+In this module, students investigate why offensive rating and height may show a negative relationship among NBA draftees even though height and offensive rating are positively associated among all men's college basketball players. The module uses descriptive visualizations, simple linear regression, and Berkson's bias to explain this counterintuitive pattern.
